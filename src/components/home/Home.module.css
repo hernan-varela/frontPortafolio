@@ -1,0 +1,13 @@
+/* Home.module.css */
+.typewriter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .typewriter {
+    text-align: justify;
+    max-width: 80%; /* Ajusta el ancho máximo según tu diseño */
+  }
+  

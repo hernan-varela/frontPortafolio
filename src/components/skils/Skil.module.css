@@ -1,0 +1,5 @@
+.techImage {
+  max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+  height: auto; /* Mantiene la proporción de aspecto */
+  padding: 10%;
+}

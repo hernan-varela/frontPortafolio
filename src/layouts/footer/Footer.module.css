@@ -1,0 +1,18 @@
+.footer {
+    padding: 20px 0;
+}
+
+.socialIcon {
+    font-size: 24px;
+    color: #666;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.customSocialIcon:hover {
+    color: #007bff;
+}
+
+.footerText {
+    color: #666;
+}
