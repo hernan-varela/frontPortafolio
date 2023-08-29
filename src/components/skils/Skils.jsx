@@ -15,11 +15,11 @@ import MongooseLogo from "../../assets/logos/MongooseLogo.png"
 
 const Skils = () => {
   return (
-    <Container fluid className={`${styles.container} bg-dark`}>
+    <Container fluid className={`${styles.container}`}>
 
       <Row className={`col-12 justify-content-center`}>
         <Col className={`text-center`}>
-          <h1 className={`${styles.title} text-white`}>Mis habilidades</h1>
+          <h1 className={`${styles.title} text-white`}>My skills</h1>
         </Col>
       </Row>
 
