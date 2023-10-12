@@ -21,7 +21,7 @@ function DropDownCntc() {
         >
           github
         </Dropdown.Item>
-        <Dropdown.Item href="https://wa.me/+5401138337842" target="_blank">
+        <Dropdown.Item href="https://wa.me/+5401133077417" target="_blank">
           wathsapp
         </Dropdown.Item>
       </Dropdown.Menu>
