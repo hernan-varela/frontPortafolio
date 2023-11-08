@@ -17,19 +17,19 @@ function Navbar2() {
             
 
               <Nav.Link href="/" className={`nav-link  ${styles.link}`}>
-                Home
+                Inicio
               </Nav.Link>
 
               <Nav.Link href="/about-me" className={`nav-link  ${styles.link}`}>
-                About me
+                Sobre mi
               </Nav.Link>
 
               <Nav.Link href="/project" className={`nav-link  ${styles.link}`}>
-                Projects
+                Proyectos
               </Nav.Link>
 
               <Nav.Link href="https://drive.google.com/file/d/1mK9QgzrbvRf-zlhPcaBpSzZJwHpJv_qS/view?usp=drive_link" target="_blank" className={`nav-link  ${styles.link}`}>
-                Resume
+                C.V
               </Nav.Link>
               
             </Nav>

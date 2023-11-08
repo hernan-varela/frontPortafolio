@@ -5,7 +5,7 @@ function DropDownCntc() {
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
-        Find me!
+        Encuentrame!
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
