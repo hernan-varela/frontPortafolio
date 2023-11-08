@@ -1,0 +1,21 @@
+.container {
+  min-height: 80vh;
+
+}
+/* .contCards {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+} */
+
+.contCards {
+   text-align: center; /* Alinea el contenido en el centro horizontalmente */
+   padding: 20px; /* Agrega espacio alrededor del carrusel */
+ }
+ 
+ .cardContainer {
+   display: flex;
+   justify-content: center; /* Centra horizontalmente las tarjetas dentro del carrusel */
+ }

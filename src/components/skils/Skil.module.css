@@ -10,7 +10,9 @@
 .container{
   background-color: rgb(43, 42, 42);
 }
-
+.logoMui{
+  width: 8rem;
+}
 
 @media (min-width: 768px) {
   .title{

@@ -11,7 +11,8 @@ import htmlCssJsLogo from "../../assets/logos/htmlCssJs-logo.png";
 import expressLogo from "../../assets/logos/expressJs-logo.webp";
 import gitHubLogo from  "../../assets/logos/gitHubLogo.png";
 import SlackLogo from "../../assets/logos/slack-logo.png";
-import MongooseLogo from "../../assets/logos/MongooseLogo.png"
+import MongooseLogo from "../../assets/logos/MongooseLogo.png";
+import logoMAUI from '../../assets/logos/logoMUI.png'
 
 const Skils = () => {
   return (
@@ -19,7 +20,7 @@ const Skils = () => {
 
       <Row className={`col-12 justify-content-center`}>
         <Col className={`text-center`}>
-          <h1 className={`${styles.title} text-white`}>My skills</h1>
+          <h1 className={`${styles.title} text-white`}>Mis habilidades</h1>
         </Col>
       </Row>
 
@@ -82,6 +83,10 @@ const Skils = () => {
             alt="mongoose"
             className={styles.techImage}
           />
+        </Col>
+
+        <Col>
+          <img src={logoMAUI} alt="material ui"  className={styles.logoMui}/>
         </Col>
       </Row>
     </Container>

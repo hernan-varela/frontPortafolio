@@ -1,0 +1,25 @@
+/* CardProjets.module.css */
+
+.customCard {
+  transition: box-shadow 0.2s, background-color 0.2s; /* Transición de sombra y fondo */
+}
+
+.bgDark {
+  background-color: #000; /* Fondo oscuro */
+}
+
+.textLight {
+  color: #fff; /* Texto blanco */
+}
+
+/* .customText {
+
+} */
+
+.customButton {
+  background-color: #00ff00; /* Fondo verde */
+  border: none;
+  color: #fff; /* Texto blanco */
+}
+
+/* ... Agrega otros estilos según sea necesario */

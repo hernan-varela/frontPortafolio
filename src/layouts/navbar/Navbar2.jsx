@@ -24,8 +24,8 @@ function Navbar2() {
                 About me
               </Nav.Link>
 
-              <Nav.Link href="/proyect" className={`nav-link  ${styles.link}`}>
-                Proyects
+              <Nav.Link href="/project" className={`nav-link  ${styles.link}`}>
+                Projects
               </Nav.Link>
 
               <Nav.Link href="https://drive.google.com/file/d/1mK9QgzrbvRf-zlhPcaBpSzZJwHpJv_qS/view?usp=drive_link" target="_blank" className={`nav-link  ${styles.link}`}>

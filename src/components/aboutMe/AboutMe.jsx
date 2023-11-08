@@ -8,6 +8,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import logoUnaj from "../../assets/logos/foto_unaj.jpg";
 import logoHenry from "../../assets/logos/logo-Henry.png";
+import logoNoCountry from "../../assets/logos/logoNoCountry.png";
 import styles from "./AboutMe.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -40,9 +41,74 @@ const AboutMe = () => {
           xs={12}
           lg={6}
           className={styles.contenText}
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
+          <Card className={styles.card}>
+            <Card.Img
+              variant="top"
+              src={logoNoCountry}
+              style={{ backgroundColor: "blueviolet" }}
+            />
+            <Card.Body>
+              <Card.Title>No country</Card.Title>
+              <Card.Text>
+                No Country es un proyecto dedicado a conectar el talento en
+                tecnología con oportunidades laborales sin importar barreras.
+                Con una comunidad diversa de más de 15,000 miembros en LATAM y a
+                nivel mundial, ofrecemos herramientas y recursos para impulsar
+                tu carrera. Nuestra misión es impactar positivamente en el mundo
+                post pandemia, eliminando fronteras y brindando oportunidades
+                para todos.
+              </Card.Text>
+              <Button
+                variant="primary"
+                href="https://www.nocountry.tech/"
+                target="_blank"
+              >
+                More info
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col
+          xs={12}
+          lg={6}
+          className={styles.contenText}
           data-aos="fade-right"
           data-aos-offset="500"
           data-aos-duration="500"
+          
+        >
+          <span className={styles.text2}>
+            Actualmente, formo parte de un equipo completo y colaborativo que
+            abarca todas las áreas necesarias para llevar a cabo proyectos
+            exitosos. Nuestro equipo está compuesto por un Project Manager que
+            supervisa la planificación y gestión de proyectos, un equipo de
+            desarrollo backend y frontend para construir la infraestructura y la
+            interfaz de usuario, un diseñador de UX/UI para garantizar una
+            experiencia de usuario excepcional, y un QA Tester que se asegura de
+            la calidad del producto. Operamos bajo la metodología Scrum, lo que
+            significa que trabajamos de manera ágil y eficiente, adaptándonos a
+            las necesidades cambiantes del proyecto. Esta colaboración
+            multidisciplinaria y enfoque en equipo nos permite ofrecer
+            resultados sobresalientes y satisfacer las demandas de nuestros
+            clientes de manera efectiva y eficiente.
+          </span>
+        </Col>
+      </Row>
+
+      <Row className={styles.contentRow}>
+        <Col
+          xs={12}
+          lg={6}
+          className={styles.contenText}
+          
+
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
         >
           <span className={styles.text2}>
             Actualmente, estoy cursando la carrera de Ingeniería en Informática
@@ -63,9 +129,9 @@ const AboutMe = () => {
           xs={12}
           lg={6}
           className="text-center"
-          data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
         >
           <Card className={styles.card}>
             <Card.Img variant="top" src={logoUnaj} />
@@ -92,7 +158,13 @@ const AboutMe = () => {
       </Row>
 
       <Row className={styles.contentRow}>
-        <Col xs={12} lg={6} className={styles.contenText} data-aos="zoom-out-down"  data-aos-duration="2000">
+        <Col
+          xs={12}
+          lg={6}
+          className={styles.contenText}
+          data-aos="zoom-out-down"
+          data-aos-duration="2000"
+        >
           <Card className={styles.card}>
             <Card.Img variant="top" src={logoHenry} />
             <Card.Body>
@@ -115,7 +187,13 @@ const AboutMe = () => {
           </Card>
         </Col>
 
-        <Col xs={12} lg={6} className={styles.contenText} data-aos="zoom-out-up"  data-aos-duration="2000">
+        <Col
+          xs={12}
+          lg={6}
+          className={styles.contenText}
+          data-aos="zoom-out-up"
+          data-aos-duration="2000"
+        >
           <span className={styles.text2}>
             Completé exitosamente mis estudios y obtuve mi título de Desarrollo
             Web Full Stack Jr. en la prestigiosa Henry Academy, donde adquirí

@@ -20,10 +20,10 @@ const Home = () => {
           <Col xs={12} md={6} className={styles["typewriter-container"]}>
             <div className={styles.typewriter}>
               <h2>
-                Hello! My name is Hernán Nicolás Varela. Here you can learn
-                more about me and have the opportunity to see all the projects
-                I've been a part of, as well as get in touch with me. Are you
-                ready?
+                ¡Hola! Mi nombre es Hernán Nicolás Varela. Aquí puedes conocer
+                más sobre mí y tener la oportunidad de ver todos los proyectos
+                en los que he participado, así como ponerte en contacto conmigo.
+                ¿Estás listo?
               </h2>
             </div>
           </Col>
