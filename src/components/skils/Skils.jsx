@@ -9,7 +9,7 @@ import logoBootstrap from "../../assets/logos/bootstrap-logo.png";
 import mongoDbLogo from "../../assets/logos/mongoDbLogo.png";
 import htmlCssJsLogo from "../../assets/logos/htmlCssJs-logo.png";
 import expressLogo from "../../assets/logos/expressJs-logo.webp";
-import gitHubLogo from  "../../assets/logos/gitHubLogo.png";
+import gitHubLogo from  "../../assets/logos/githubLogo.png";
 import SlackLogo from "../../assets/logos/slack-logo.png";
 import MongooseLogo from "../../assets/logos/MongooseLogo.png";
 import logoMAUI from '../../assets/logos/logoMUI.png'
