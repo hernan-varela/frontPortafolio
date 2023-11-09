@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import CardProjets from "../card/CardProjects";
 import styles from "./ProjectsPage.module.css";
 import tayrona from "../../assets/hotelTayrona.png";
+import cashFlow from "../../assets/logos/cashFlowIMG.png";
 import { Col, Row } from "react-bootstrap";
 
 const data = [
@@ -15,8 +16,10 @@ const data = [
   },
   {
     titulo: "CashFlow",
-    descripcion: "Descripción del proyecto 2",
-    enlace: "enlace-al-proyecto-2",
+    descripcion:
+      "Cashflow es una aplicación diseñada para ayudarte a tomar el control de tus finanzas personales de una manera sencilla y eficaz.",
+    enlace: "https://deploy-one-ruddy.vercel.app/",
+    imagen: cashFlow,
   },
 ];
 

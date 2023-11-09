@@ -1,25 +1,17 @@
-/* Estilos para el enlace */
-.link {
-  position: relative;
-  display: inline-block;
-  padding-bottom: 4px; /* Espacio para la línea debajo */
-  transition: 0.3s; /* Transición suave */
+/* Navbar2.module.css */
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: green;
+  padding: 15px 20px;
   text-decoration: none;
-  color: inherit;
 }
 
-.link::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px; /* Altura de la línea debajo */
-  background-color: #00ff00; /* Color de la línea debajo */
-  transition: 0.3s; /* Transición suave */
+.activeLink {
+  border-bottom: 2px solid green; /* Ajusta el color y el estilo según tus preferencias */
+  color: red;
 }
-
-.link:hover::before {
-  width: 100%; /* Ancho de la línea al pasar el mouse */
-}
-

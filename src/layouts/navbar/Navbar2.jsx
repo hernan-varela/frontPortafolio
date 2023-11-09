@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -6,6 +7,8 @@ import styles from "./Navbar2.module.css";
 import DropDownCntc from "../../components/dropdown/DropDown";
 
 function Navbar2() {
+  const location = useLocation();
+
   return (
     <div>
       <Navbar expand="lg" bg="dark" variant="dark">
@@ -14,24 +17,21 @@ function Navbar2() {
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
-            
-
-              <Nav.Link href="/" className={`nav-link  ${styles.link}`}>
+              <NavLink exact to="/" className={`nav-link ${styles.link}`} activeClassName={styles.activeLink}>
                 Inicio
-              </Nav.Link>
+              </NavLink>
 
-              <Nav.Link href="/about-me" className={`nav-link  ${styles.link}`}>
+              <NavLink to="/about-me" className={`nav-link ${styles.link}`} activeClassName={styles.activeLink}>
                 Sobre mi
-              </Nav.Link>
+              </NavLink>
 
-              <Nav.Link href="/project" className={`nav-link  ${styles.link}`}>
+              <NavLink to="/project" className={`nav-link ${styles.link}`} activeClassName={styles.activeLink}>
                 Proyectos
-              </Nav.Link>
+              </NavLink>
 
-              <Nav.Link href="https://drive.google.com/file/d/1mK9QgzrbvRf-zlhPcaBpSzZJwHpJv_qS/view?usp=drive_link" target="_blank" className={`nav-link  ${styles.link}`}>
+              <a href="https://drive.google.com/file/d/1mK9QgzrbvRf-zlhPcaBpSzZJwHpJv_qS/view?usp=drive_link" target="_blank" className={`nav-link ${styles.link}`}>
                 C.V
-              </Nav.Link>
-              
+              </a>
             </Nav>
             <DropDownCntc />
           </Navbar.Collapse>

@@ -10,10 +10,10 @@ function CardProjets({ imagen, titulo, texto, url }) {
 
   return (
     <Card style={{ width: '18rem', margin: '1rem' }} className="bg-dark text-white">
-      <Card.Img variant="top" src={imagen} />
+      <Card.Img variant="top" src={imagen} style={{height: '8rem'}} />
       <Card.Body>
         <Card.Title>{titulo}</Card.Title>
-        <Card.Text>
+        <Card.Text  style={{height: '10rem'}}>
           {texto}
         </Card.Text>
         <Button
